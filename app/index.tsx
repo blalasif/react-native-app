@@ -37,6 +37,12 @@ export default function Index() {
       >
         <Text>Go to Profile </Text>
       </Pressable>
+      <Pressable
+        className="bg-orange-500 p-4 rounded-lg  text-center w-[100%]"
+        onPress={() => router.push("/Register")}
+      >
+        <Text>Go to Register </Text>
+      </Pressable>
     </>
   );
 }
